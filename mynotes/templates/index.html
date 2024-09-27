@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Notes List</h1>
+        </nav>
+        <div class="notes-header">
+            <h2 class="title">&#9782; Notes</h2>
+            <p class="count">0</p>
+        </div>
+        <div class="notes-list">
+            <div class="note-list">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis
+            </div>
+            <div class="note-list">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis
+            </div>
+            <div class="note-list">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis
+            </div>
+            <div class="note-list">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis
+            </div>
+        </div>
+
+        <div class="add-note">
+            <img src="{% static 'images/add.png' %}" alt="image">
+        </div>
+    </div>
+</body>
+</html>
